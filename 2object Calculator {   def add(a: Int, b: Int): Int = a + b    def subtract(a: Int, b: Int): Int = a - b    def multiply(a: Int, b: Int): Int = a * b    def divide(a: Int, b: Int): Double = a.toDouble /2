@@ -1,0 +1,18 @@
+object Calculator {
+  def add(a: Int, b: Int): Int = a + b
+
+  def subtract(a: Int, b: Int): Int = a - b
+
+  def multiply(a: Int, b: Int): Int = a * b
+
+  def divide(a: Int, b: Int): Double = a.toDouble / b.toDouble
+
+  def main(args: Array[String]): Unit = {
+    val x = 10
+    val y = 5
+    println(s"Addition: ${add(x, y)}")
+    println(s"Subtraction: ${subtract(x, y)}")
+    println(s"Multiplication: ${multiply(x, y)}")
+    println(s"Division: ${divide(x, y)}")
+  }
+}
